@@ -1,2 +1,2 @@
 # net.jacotronix.java.working
-General Java Repository
+Java work in progress
