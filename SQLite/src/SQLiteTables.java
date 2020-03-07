@@ -45,5 +45,4 @@ public class SQLiteTables {
         }
         System.out.println("Table created successfully");
 	}
-
 }
