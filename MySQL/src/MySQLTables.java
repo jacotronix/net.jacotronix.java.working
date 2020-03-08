@@ -11,13 +11,13 @@ public class MySQLTables {
 	
 	// Table creation SQL statements
     static final String sql_create_projects_table = " CREATE TABLE IF NOT EXISTS projects ("+
-    		"id integer PRIMARY KEY,"+
+    		"id integer NOT NULL AUTO_INCREMENT PRIMARY KEY,"+
     		"name text NOT NULL,"+
     		"begin_date text,"+
     		"end_date text"+
     		");";
     static final String sql_create_tasks_table = "CREATE TABLE IF NOT EXISTS tasks ("+
-    		"id integer PRIMARY KEY,"+
+    		"id integer NOT NULL AUTO_INCREMENT PRIMARY KEY,"+
     		"name text NOT NULL,"+
     		"priority integer,"+
     		"status_id integer NOT NULL,"+
